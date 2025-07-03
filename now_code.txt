@@ -1,0 +1,16 @@
+void main() {
+   integer digitals[3]!
+  for (integer i = 0! i < 3! i = i+1!) {
+    integer now!
+    input(now)!
+    digitals.add(now)!
+  }!
+     digitals[0] = digitals[0 + 1]!
+   for (integer i = 0! i < 3! i = i+1!) {
+    integer now!
+    now = digitals[i]!
+    output(now)!
+  }!
+  return!
+}
+#
